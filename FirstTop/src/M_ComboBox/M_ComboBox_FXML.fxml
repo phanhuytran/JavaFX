@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="215.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="M_ComboBox.M_ComboBox_Controller">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="45.0" layoutY="105.0" onAction="#comboBoxChanged" prefWidth="150.0" promptText="Language" />
+      <Label fx:id="label" contentDisplay="CENTER" layoutX="45.0" layoutY="62.0" text="COMBO BOX">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

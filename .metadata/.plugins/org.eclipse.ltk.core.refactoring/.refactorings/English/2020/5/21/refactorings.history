@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;English.Choice.explaination&apos; in &apos;English.Choice&apos;&#x0D;&#x0A;- Original project: &apos;English&apos;&#x0D;&#x0A;- Original element: &apos;English.Choice.explaination&apos;&#x0D;&#x0A;- Getter method name: &apos;getExplaination&apos;&#x0D;&#x0A;- Setter method name: &apos;setExplaination&apos;&#x0D;&#x0A;- Field visibility: &apos;private&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;explaination&apos;" flags="589830" getter="getExplaination" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;English{Choice.java[Choice^explaination" insertion="6" setter="setExplaination" stamp="1589870390348" version="1.0" visibility="2"/>
+</session>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="V_TableView.V_TableView_Controller">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="15.0" prefHeight="370.0" prefWidth="381.0">
+        <columns>
+            <TableColumn fx:id="idColumn" prefWidth="31.0" text="ID" />
+          <TableColumn fx:id="nameColumn" prefWidth="131.0" text="Name" />
+          <TableColumn fx:id="emailColumn" prefWidth="176.0" text="Email" />
+            <TableColumn fx:id="ageColumn" prefWidth="41.0" text="Age" />
+        </columns>
+      </TableView>
+      <Label layoutX="412.0" layoutY="79.0" text="ID" />
+      <Label layoutX="412.0" layoutY="117.0" text="Name" />
+      <Label layoutX="412.0" layoutY="192.0" text="Age" />
+      <Label layoutX="412.0" layoutY="154.0" text="Email" />
+      <TextField fx:id="idTextField" layoutX="454.0" layoutY="75.0" prefHeight="25.0" prefWidth="132.0" />
+      <TextField fx:id="nameTextField" layoutX="454.0" layoutY="113.0" prefHeight="25.0" prefWidth="132.0" />
+      <TextField fx:id="ageTextField" layoutX="454.0" layoutY="188.0" prefHeight="25.0" prefWidth="132.0" />
+      <TextField fx:id="emailTextField" layoutX="454.0" layoutY="150.0" prefHeight="25.0" prefWidth="132.0" />
+      <Button layoutX="432.0" layoutY="237.0" mnemonicParsing="false" onAction="#addStudent" text="Add" />
+      <Button layoutX="475.0" layoutY="237.0" mnemonicParsing="false" onAction="#removeStudent" text="Remove" />
+      <Button layoutX="539.0" layoutY="237.0" mnemonicParsing="false" onAction="#changeSceneStudentDetail" text="Detail" />
+   </children>
+</AnchorPane>
